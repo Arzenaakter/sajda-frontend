@@ -56,7 +56,7 @@ export default function TestimonialSection() {
           </div>
           {/* Slider */}
 
-          <div className="relative mt-16 md:mt-20  lg:max-w-3xl bg-red-400">
+          <div className="relative mt-16 md:mt-20  lg:max-w-3xl ">
             {/* Previous */}
             <button
               onClick={handlePrev}
