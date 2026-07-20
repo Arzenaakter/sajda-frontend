@@ -9,7 +9,7 @@ export interface Journey {
   href: string;
 }
 export interface Testimonial {
-  imgLink: string;
+  imgLink: StaticImageData;
   review: string;
   name: string;
 }

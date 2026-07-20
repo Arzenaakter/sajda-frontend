@@ -2,6 +2,7 @@ import { FooterSection, Journey, Testimonial } from "@/types";
 import tourPackage from "@/assets/journey/tourPackge.jpg";
 import hajjPackage from "@/assets/journey/hajjPackage.jpg";
 import umraPackage from "@/assets/journey/umraPackage.jpg";
+import client1 from "@/assets/testimonial/client1.jpg";
 
 export const journeys: Journey[] = [
   {
@@ -35,34 +36,22 @@ export const journeys: Journey[] = [
 
 export const testimonials: Testimonial[] = [
   {
-    imgLink: "/images/testimonials/user-1.jpg",
+    imgLink: client1,
     review:
-      "Working with this team was an amazing experience. They delivered a beautiful, responsive website on time and exceeded our expectations.",
-    name: "Sarah Johnson",
+      "A wonderful Hajj experience with Sajda. Everything was well managed, and the team’s support made our journey comfortable, meaningful, and worry-free.",
+    name: "Muhammad Alim Khandakar",
   },
   {
-    imgLink: "/images/testimonials/user-2.jpg",
+    imgLink: client1,
     review:
       "Their attention to detail and commitment to quality made the entire process smooth and enjoyable. Highly recommended!",
     name: "Michael Brown",
   },
   {
-    imgLink: "/images/testimonials/user-3.jpg",
+    imgLink: client1,
     review:
       "Professional, creative, and reliable. The final product perfectly matched our vision and significantly improved our online presence.",
     name: "Emily Davis",
-  },
-  {
-    imgLink: "/images/testimonials/user-4.jpg",
-    review:
-      "Excellent communication and outstanding technical skills. I couldn't be happier with the results.",
-    name: "David Wilson",
-  },
-  {
-    imgLink: "/images/testimonials/user-5.jpg",
-    review:
-      "From start to finish, everything was handled professionally. The design is modern, fast, and user-friendly.",
-    name: "Jessica Miller",
   },
 ];
 

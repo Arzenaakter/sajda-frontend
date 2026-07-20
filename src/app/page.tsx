@@ -1,13 +1,13 @@
 import CTASection from "@/components/CTASection";
 import JourneySection from "@/components/JourneySection";
-import Testimonials from "@/components/Testimonials";
+import TestimonialSection from "@/components/TestimonialSection";
 
 export default function Home() {
   return (
     <>
       <JourneySection />
       <CTASection />
-      <Testimonials />
+      <TestimonialSection />
     </>
   );
 }
