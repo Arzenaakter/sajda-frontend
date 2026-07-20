@@ -7,7 +7,7 @@ import leftImage1 from "@/assets/umrah/leftImage1.png";
 import leftImage2 from "@/assets/umrah/leftImage2.jpg";
 import Container from "../common/Container";
 
-export default function UmrahSpecial() {
+export default function UmrahSpecialSection() {
   return (
     <section className="py-20  lg:py-28 overflow-hidden ">
       <Container>

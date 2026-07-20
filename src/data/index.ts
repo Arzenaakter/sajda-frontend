@@ -1,8 +1,33 @@
-import { FooterSection, Journey, Testimonial } from "@/types";
+import { Feature, FooterSection, Journey, Testimonial } from "@/types";
 import tourPackage from "@/assets/journey/tourPackge.jpg";
 import hajjPackage from "@/assets/journey/hajjPackage.jpg";
 import umraPackage from "@/assets/journey/umraPackage.jpg";
 import client1 from "@/assets/testimonial/client1.jpg";
+
+import { BiSelection } from "react-icons/bi";
+import { FaHouseFloodWaterCircleArrowRight } from "react-icons/fa6";
+import { PiTaxi } from "react-icons/pi";
+
+export const features: Feature[] = [
+  {
+    icon: BiSelection,
+    bg: "#F0BB1F",
+    title: "Choose Destination",
+    description: "Choose your destination and begin a smooth journey.",
+  },
+  {
+    icon: FaHouseFloodWaterCircleArrowRight,
+    bg: "#F15A2B",
+    title: "Check Availability",
+    description: "Check package availability before confirming your journey.",
+  },
+  {
+    icon: PiTaxi,
+    bg: "#006380",
+    title: "Let's Go",
+    description: "Let's start your travel with confidence.",
+  },
+];
 
 export const journeys: Journey[] = [
   {
