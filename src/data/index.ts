@@ -1,4 +1,4 @@
-import { Feature, FooterSection, Journey, Testimonial } from "@/types";
+import { Feature, FooterSection, Journey, Testimonial, Blog } from "@/types";
 import tourPackage from "@/assets/journey/tourPackge.jpg";
 import hajjPackage from "@/assets/journey/hajjPackage.jpg";
 import umraPackage from "@/assets/journey/umraPackage.jpg";
@@ -7,6 +7,25 @@ import client1 from "@/assets/testimonial/client1.jpg";
 import { BiSelection } from "react-icons/bi";
 import { FaHouseFloodWaterCircleArrowRight } from "react-icons/fa6";
 import { PiTaxi } from "react-icons/pi";
+
+import makkha from "@/assets/blog/makkah.jpg";
+import spain from "@/assets/blog/spain.jpg";
+import agra from "@/assets/blog/agra.jpg";
+
+export const blogs: Blog[] = [
+  {
+    title: "Makkah",
+    image: makkha,
+  },
+  {
+    title: "Spain",
+    image: spain,
+  },
+  {
+    title: "Agra",
+    image: agra,
+  },
+];
 
 export const features: Feature[] = [
   {

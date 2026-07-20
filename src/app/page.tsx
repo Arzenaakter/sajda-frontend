@@ -1,3 +1,4 @@
+import BlogSection from "@/components/home/BlogSection";
 import CTASection from "@/components/home/CTASection";
 import JourneySection from "@/components/home/JourneySection";
 import TestimonialSection from "@/components/home/TestimonialSection";
@@ -10,6 +11,7 @@ export default function Home() {
       <JourneySection />
       <UmrahSpecialSection />
       <WhyChooseSection />
+      <BlogSection />
       <CTASection />
       <TestimonialSection />
     </>

@@ -1,5 +1,9 @@
 import { StaticImageData } from "next/image";
 import { IconType } from "react-icons";
+export interface Blog {
+  title: string;
+  image: StaticImageData;
+}
 
 export interface Feature {
   icon: IconType;
