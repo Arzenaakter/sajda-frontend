@@ -11,8 +11,8 @@ export const journeys: Journey[] = [
     badge: "Explore Bangladesh's Beyond",
     title: "Tour Packages",
     description:
-      "Curated travel across Bangladesh's most breathtaking destinations — mangroves, hills, seas, and more.",
-    href: "/tour-packages",
+      "Curated travel across Bangladesh's most breathtaking destinations — mangroves, hills, sea, and more.",
+    href: "#",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const journeys: Journey[] = [
     title: "Hajj Packages",
     description:
       "Complete Hajj arrangements with premium accommodation, guided rituals, and dedicated support.",
-    href: "/hajj-packages",
+    href: "#",
   },
   {
     id: 3,
@@ -29,8 +29,8 @@ export const journeys: Journey[] = [
     badge: "A Blessed Spiritual Journey",
     title: "Umrah Packages",
     description:
-      "Year-round Umrah packages for individuals, couples, and families with multilingual support.",
-    href: "/umrah-packages",
+      "Year-round Umrah packages for individuals, couples, and families with full logistical support.",
+    href: "#",
   },
 ];
 

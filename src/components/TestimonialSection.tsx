@@ -68,21 +68,21 @@ export default function TestimonialSection() {
             {/* Card */}
 
             <div className="w-full max-w-135 lg:w-134.5 lg:h-69.25 rounded-[17px] bg-white px-6 sm:px-8 md:px-10 lg:px-14 py-10 lg:py-16 text-center shadow-xl">
-              <div className="flex justify-center -mt-20 md:-mt-24 lg:-mt-28 ">
+              <div className="flex justify-center -mt-20 md:-mt-24 lg:-mt-30 ">
                 <Image
                   src={current.imgLink}
                   alt=""
-                  className="md:h-30 md:w-30 h-24 w-24 rounded-full border-6 border-white object-cover "
+                  className="md:h-30 md:w-30 h-24 w-24 rounded-full border-6 border-white object-cover shadow-2xl "
                 />
               </div>
 
-              <RiDoubleQuotesL className="  text-secondary/20 md:w-15 md:h-15 h-8 w-8" />
+              <RiDoubleQuotesL className="  text-secondary/20 md:w-15 md:h-15 h-8 w-8 lg:-mt-2" />
 
-              <p className="mx-auto md:mt-2 max-w-[85%] lg:max-w-95 text-sm md:text-base md:leading-7  text-black font-inter">
+              <p className="mx-auto md:-mt-5 max-w-[85%] lg:max-w-95 text-sm md:text-base md:leading-7  text-black font-inter">
                 {current.review}
               </p>
 
-              <RiDoubleQuotesR className="mx-auto text-black md:-mt-3 mt-2 " />
+              <RiDoubleQuotesR className="mx-auto text-black md:mt-5 mt-2 " />
 
               <h4 className=" font-semibold text-black text-sm">
                 {current.name}
