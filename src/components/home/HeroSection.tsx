@@ -9,7 +9,7 @@ import client4 from "@/assets/hero/client4.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative  min-h-screen w-full px-4 md:px-8  flex flex-col items-center h-211.5">
+    <section className="relative  min-h-screen w-full px-4 md:px-8  flex flex-col items-center h-211.5 pt-20 md:pt-0 overflow-hidden lg:overflow-visible">
       <div className="absolute -top-100 w-212.5 h-212.5 border-[1.5px] border-[#B2BBC6]/12 rounded-full z-20 " />
       <div className="absolute -top-127 w-266.5 h-266.5 border-[1.5px] border-[#B2BBC6]/12 rounded-full z-20 " />
 
@@ -39,7 +39,7 @@ const HeroSection = () => {
       <div className="max-w-7xl w-full mx-auto relative z-30 flex flex-col items-center grow justify-center pt-12 md:pt-20">
         {/* Hero heading */}
         <div className="text-center max-w-3xl px-2 lg:w-193.25 lg:h-60.5">
-          <h1 className="text-2xl  md:text-4xl lg:text-[56px] font-playfair font-bold text-secondary leading-16 mb-4">
+          <h1 className="text-2xl  md:text-4xl lg:text-[56px] font-playfair font-bold text-secondary lg:leading-16 mb-4">
             Your Tour, Hajj & Umrah <br className="hidden sm:inline" /> Journey
             begins here!
           </h1>
@@ -79,18 +79,18 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/*  PLAN YOUR JOURNEY SEARCH BAR */}
-        <div className="w-full max-w-241.25 h-55 mt-22 mb-16 bg-white/24 backdrop-blur border border-white/60 shadow-[0_20px_60px_rgba(15,41,66,0.06)] rounded-[56px] md:px-6 md:py-8">
+        {/*  Searbar card */}
+        <div className="w-full max-w-241.25 lg:h-55 mt-10 lg:mt-22 mb-16 bg-white/24 backdrop-blur border border-white/60 shadow-[0_20px_60px_rgba(15,41,66,0.06)] rounded-[56px] px-6 py-8 ">
           {/* Small inner heading */}
           <div className="text-center mb-6">
-            <h3 className="lg:text-2xl md:text-lg text-sm font-inter font-semibold text-secondary leading-8 inline-block relative pb-1.5">
+            <h3 className="lg:text-2xl md:text-xl text-lg font-inter font-semibold text-secondary leading-8 inline-block relative pb-1.5">
               Plan Your Journey
               <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-8 h-[2.5px] bg-primary rounded-full"></span>
             </h3>
           </div>
 
           {/* Input Grid Field Layout */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 items-end">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 items-end">
             {/* Field: Package */}
             <div className="flex flex-col gap-1.5">
               <label className="text-xs md:text-sm lg:text-base font-bold text-secondary font-playfair leading-6 pl-1">

@@ -17,11 +17,11 @@ export default function JourneySection() {
             <span className="h-px w-10 bg-primary" />
           </div>
 
-          <h2 className="mt-3 font-playfair text-4xl font-bold text-secondary">
+          <h2 className="mt-3 font-playfair text-2xl  md:text-4xl  font-bold text-secondary">
             Choose Your Journey
           </h2>
 
-          <p className="mx-auto mt-5  text-[#546881] font-inter font-medium text-base">
+          <p className="mx-auto mt-5  text-[#546881] font-inter font-medium md:text-base">
             Three distinct paths, one trusted partner. Select the journey that
             calls to your heart.
           </p>

@@ -11,17 +11,18 @@ import footerLogo from "@/assets/footer/footerLogo.svg";
 import footerBg from "@/assets/footer/footerbg.svg";
 import Link from "next/link";
 import { footerLinks } from "@/data";
+import ScrollToTopButton from "./home/ScrollToTopButton";
 
 export default function Footer() {
   return (
-    <footer className=" pt-16 pb-8 relative overflow-hidden bg-white">
+    <footer className=" pt-16 pb-8 relative bg-white ">
       <div
         className="absolute inset-y-0 right-0 w-1/2 bg-no-repeat bg-right bg-contain"
         style={{
           backgroundImage: `url(${footerBg.src})`,
         }}
       />
-
+      <ScrollToTopButton />
       <div className="relative z-10">
         <Container>
           {/* Top Section*/}
@@ -92,7 +93,7 @@ export default function Footer() {
                   type="email"
                   placeholder="Your Email Address"
                   required
-                  className="w-full lg:w-97   h-13  bg-[#EEEEFF]  rounded-l-[10px] py-3.5 pl-4 pr-12 text-sm  placeholder-secondary/40 focus:outline-none  font-sans"
+                  className="w-full grow lg:w-97 h-13 bg-[#EEEEFF] rounded-l-[10px] py-3.5 pl-4 pr-12 text-sm  placeholder-secondary/40 focus:outline-none  font-sans"
                 />
                 <button
                   type="submit"
