@@ -1,4 +1,11 @@
-import { Feature, FooterSection, Journey, Testimonial, Blog } from "@/types";
+import {
+  Feature,
+  FooterSection,
+  Journey,
+  Testimonial,
+  Blog,
+  Offer,
+} from "@/types";
 import tourPackage from "@/assets/journey/tourPackge.jpg";
 import hajjPackage from "@/assets/journey/hajjPackage.jpg";
 import umraPackage from "@/assets/journey/umraPackage.jpg";
@@ -11,6 +18,41 @@ import { PiTaxi } from "react-icons/pi";
 import makkha from "@/assets/blog/makkah.jpg";
 import spain from "@/assets/blog/spain.jpg";
 import agra from "@/assets/blog/agra.jpg";
+
+import guidedtour from "@/assets/offer/guided-tour.svg";
+import flightOption from "@/assets/offer/flightOption.svg";
+import hajjUmra from "@/assets/offer/hajjUmra.svg";
+import medicaInsurence from "@/assets/offer/medicaInsurence.svg";
+
+export const offers: Offer[] = [
+  {
+    id: 1,
+    image: guidedtour,
+    title: "Guided Tours",
+    description:
+      "Explore beautiful destinations with trusted guides & a smooth travel experience.",
+  },
+  {
+    id: 2,
+    image: flightOption,
+    title: "Best Flights Options",
+    description:
+      "Get the best flight options for a comfortable travel experience.",
+  },
+  {
+    id: 3,
+    image: hajjUmra,
+    title: "Hajj & Umrah",
+    description: "Perform Hajj and Umrah with comfort, care & confidence.",
+  },
+  {
+    id: 4,
+    image: medicaInsurence,
+    title: "Medical insurance",
+    description:
+      "Enjoy worry-free travel with proper health and medical protection.",
+  },
+];
 
 export const blogs: Blog[] = [
   {

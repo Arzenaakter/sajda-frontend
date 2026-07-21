@@ -7,7 +7,7 @@ import { blogs } from "@/data";
 
 const BlogSection = () => {
   return (
-    <section className="overflow-hidden py-20 lg:py-28">
+    <section className="overflow-hidden pb-20 lg:pb-28">
       <Container>
         <div className="grid items-center gap-16 lg:grid-cols-2">
           {/* LEFT */}

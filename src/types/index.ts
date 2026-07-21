@@ -1,5 +1,12 @@
 import { StaticImageData } from "next/image";
 import { IconType } from "react-icons";
+
+export interface Offer {
+  id: number;
+  image: StaticImageData;
+  title: string;
+  description: string;
+}
 export interface Blog {
   title: string;
   image: StaticImageData;

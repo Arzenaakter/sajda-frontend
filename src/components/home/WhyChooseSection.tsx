@@ -15,7 +15,7 @@ import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
 
 export default function WhyChooseSection() {
   return (
-    <section className="relative  py-20  overflow-hidden w-full ">
+    <section className="relative  py-20  overflow-hidden w-full  ">
       <Container>
         <div className="grid items-center justify-center lg:justify-start gap-28 lg:gap-5 lg:grid-cols-2  ">
           {/* LEFT */}
