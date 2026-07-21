@@ -1,6 +1,11 @@
 import { StaticImageData } from "next/image";
 import { IconType } from "react-icons";
 
+export interface Nav {
+  label: string;
+  link: string;
+}
+
 export interface Offer {
   id: number;
   image: StaticImageData;

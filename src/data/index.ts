@@ -5,6 +5,7 @@ import {
   Testimonial,
   Blog,
   Offer,
+  Nav,
 } from "@/types";
 import tourPackage from "@/assets/journey/tourPackge.jpg";
 import hajjPackage from "@/assets/journey/hajjPackage.jpg";
@@ -23,6 +24,14 @@ import guidedtour from "@/assets/offer/guided-tour.svg";
 import flightOption from "@/assets/offer/flightOption.svg";
 import hajjUmra from "@/assets/offer/hajjUmra.svg";
 import medicaInsurence from "@/assets/offer/medicaInsurence.svg";
+
+export const navLinks: Nav[] = [
+  { label: "Home", link: "/" },
+  { label: "Tour Packages", link: "#" },
+  { label: "Hajj Packages", link: "#" },
+  { label: "Umrah Packages", link: "#" },
+  { label: "About Us", link: "#" },
+];
 
 export const offers: Offer[] = [
   {

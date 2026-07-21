@@ -24,7 +24,7 @@ const HeroSection = () => {
         />
       </div>
 
-      {/* Right side artwork */}
+      {/* Right side*/}
       <div className="absolute right-0 top-12 -z-10 max-w-174 h-225.25 hidden lg:block select-none pointer-events-none origin-bottom-right">
         <Image
           src={heroRightImg}
@@ -37,7 +37,7 @@ const HeroSection = () => {
 
       {/*Hero main content*/}
       <div className="max-w-7xl w-full mx-auto relative z-30 flex flex-col items-center grow justify-center pt-12 md:pt-20">
-        {/* Typography & Call to Action text */}
+        {/* Hero heading */}
         <div className="text-center max-w-3xl px-2 lg:w-193.25 lg:h-60.5">
           <h1 className="text-2xl  md:text-4xl lg:text-[56px] font-playfair font-bold text-secondary leading-16 mb-4">
             Your Tour, Hajj & Umrah <br className="hidden sm:inline" /> Journey
@@ -97,7 +97,7 @@ const HeroSection = () => {
                 Package
               </label>
               <div className="relative">
-                <select className="w-full bg-white border border-gray-200 text-xs font-semibold text-gray-500 rounded-full py-3 px-4 appearance-none outline-none focus:border-[#0084ff] transition-all cursor-pointer">
+                <select className="w-full bg-white border border-gray-200 text-xs font-semibold text-gray-500 rounded-full py-3 px-4 appearance-none outline-none transition-all cursor-pointer">
                   <option>Select package</option>
                   <option>Hajj Package</option>
                   <option>Umrah Package</option>
