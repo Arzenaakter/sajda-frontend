@@ -41,27 +41,27 @@ const BlogSection = () => {
             </div>
 
             {/* Cards */}
-
-            <div className="relative mt-12 flex md:flex-row flex-col gap-5  pb-2  w-full lg:w-[895.03px] lg:h-60 z-10">
+            <div className="relative mt-12 flex flex-col md:flex-row items-center justify-center lg:justify-normal md:items-stretch gap-5 pb-2 w-full lg:w-[895.03px] z-10">
               {blogs.map((blog) => (
                 <div
                   key={blog.title}
-                  className="group relative  md:h-60 flex-1 shadow-xl md:grow"
+                  className="group relative h-60 w-full max-w-xl md:max-w-none md:w-60 lg:w-67.75 lg:flex-1 shadow-xl overflow-hidden rounded-[10px]"
                 >
                   <Image
                     src={blog.image}
                     alt={blog.title}
                     fill
-                    className="object-cover transition duration-500 group-hover:scale-105 rounded-[10px] w-67.75 h-60"
+                    sizes="(max-width: 768px) 100vw, 271px"
+                    className="object-cover transition duration-500 group-hover:scale-105"
                   />
 
-                  <div className="absolute right-3 top-3 flex items-center  gap-2 rounded-full   border-0.5 border-white/85 bg-white/10 px-3 py-1 text-xs shadow-[inset_0_0_8px_rgb(255,255,255,0.8)] backdrop-blur-2xl">
-                    <span className="text-base font-inter font-normal">
+                  <div className="absolute right-3 top-3 flex items-center gap-2 rounded-full border-0.5 border-white/85 bg-white/10 px-3 py-1 text-xs shadow-[inset_0_0_8px_rgb(255,255,255,0.8)] backdrop-blur-2xl">
+                    <span className="text-base font-inter font-normal text-white">
                       {blog.title}
                     </span>
 
                     <div className="bg-white h-5 w-5 rounded-full flex justify-center items-center">
-                      <HiArrowUpRight className="  text-black" />
+                      <HiArrowUpRight className="text-black" />
                     </div>
                   </div>
                 </div>
@@ -91,7 +91,7 @@ const BlogSection = () => {
 
                 {/* Image */}
                 <div className="relative pt-5 -ps-2 left-2">
-                  <div className="relative lg:w-[477.49px] lg:h-[690.57px] h-95 w-65 sm:h-120 sm:w-82.5 md:h-140 md:w-100 overflow-hidden rounded-t-[366px]">
+                  <div className="relative lg:w-[477.49px] lg:h-[690.57px] h-100 w-80 sm:h-120 sm:w-82.5 md:h-140 md:w-100 overflow-hidden rounded-t-[366px]">
                     <Image
                       src={tawar}
                       alt="Europe"

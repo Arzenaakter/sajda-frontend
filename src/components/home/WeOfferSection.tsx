@@ -4,7 +4,7 @@ import { offers } from "@/data";
 
 const WeOfferSection = () => {
   return (
-    <section className="z-30">
+    <section className="z-30 mt-8 md:mt-0">
       <Container>
         {/* Heading */}
 
@@ -22,7 +22,7 @@ const WeOfferSection = () => {
                 <div className="absolute  -bottom-8 -left-5 h-24 w-24 rounded-tl-[2.5rem] rounded-bl-none rounded-br-[2.5rem] rounded-tr-none bg-primary -z-10 hidden md:block" />
               )}
 
-              <div className="relative w-full h-full lg:h-75 lg:w-71.25 rounded-[40px] bg-[#FCFDFD]/72 p-6  backdrop-blur-[2px] shadow-[0_26px_40px_rgba(0,0,0,0.08),inset_0_0_16px_rgba(255,255,255,1)] mx-auto">
+              <div className="relative w-full h-full lg:h-75 lg:w-71 rounded-[40px] bg-[#FCFDFD]/72 p-6  backdrop-blur-[2px] shadow-[0_26px_40px_rgba(0,0,0,0.08),inset_0_0_16px_rgba(255,255,255,1)] mx-auto">
                 <div className="flex h-full flex-col items-center text-center">
                   <Image
                     src={item.image}

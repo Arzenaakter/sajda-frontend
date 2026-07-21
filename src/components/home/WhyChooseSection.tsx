@@ -1,8 +1,6 @@
 import Image from "next/image";
 import { LuHeart } from "react-icons/lu";
-
 import Container from "../common/Container";
-
 import plane from "@/assets/whyChoose/plen.svg";
 import building from "@/assets/whyChoose/building.svg";
 import ongoingCardImg from "@/assets/whyChoose/ongoingCardimg.svg";

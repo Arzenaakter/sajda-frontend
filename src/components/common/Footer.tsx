@@ -5,13 +5,13 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 
-import Container from "./common/Container";
+import Container from "./Container";
 import Image from "next/image";
 import footerLogo from "@/assets/footer/footerLogo.svg";
 import footerBg from "@/assets/footer/footerbg.svg";
 import Link from "next/link";
 import { footerLinks } from "@/data";
-import ScrollToTopButton from "./home/ScrollToTopButton";
+import ScrollToTopButton from "../home/ScrollToTopButton";
 
 export default function Footer() {
   return (
@@ -83,8 +83,8 @@ export default function Footer() {
             </div>
 
             {/* Newsletter Subscribe */}
-            <div className="md:col-span-4 flex flex-col md:justify-center lg:justify-normal md:items-center lg:items-start gap-4 px-20 md:px-0">
-              <h4 className="text-[21px] font-bold text-secondary mb-6 font-manrope">
+            <div className="md:col-span-4 flex flex-col md:justify-center lg:justify-normal md:items-center lg:items-start gap-4 px-10 md:px-0">
+              <h4 className="text-[21px] font-bold text-secondary lg:mb-6 font-manrope text-center lg:text-start">
                 Join Our Newsletter
               </h4>
 
@@ -93,11 +93,11 @@ export default function Footer() {
                   type="email"
                   placeholder="Your Email Address"
                   required
-                  className="w-full grow lg:w-97 h-13 bg-[#EEEEFF] rounded-l-[10px] py-3.5 pl-4 pr-12 text-sm  placeholder-secondary/40 focus:outline-none  font-sans"
+                  className="w-full grow md:w-97 h-13 bg-[#EEEEFF] rounded-l-[10px] py-3.5 pl-4 pr-12 text-sm  placeholder-secondary/40 focus:outline-none  font-sans"
                 />
                 <button
                   type="submit"
-                  className="absolute  lg:w-46.25 h-13 right-0 top-0  bottom-1.5 px-3 py-3.5 bg-primary hover:bg-primary/90 text-white rounded-[10px] flex items-center justify-center transition-colors cursor-pointer "
+                  className="absolute lg:w-46.25 w-20  h-13 -right-14 lg:right-0 top-0  bottom-1.5 px-3 py-3.5 bg-primary hover:bg-primary/90 text-white rounded-[10px] flex items-center justify-center transition-colors cursor-pointer text-sm"
                 >
                   Subscribe
                 </button>

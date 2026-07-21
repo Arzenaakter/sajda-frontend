@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="absolute -top-127 w-266.5 h-266.5 border-[1.5px] border-[#B2BBC6]/12 rounded-full z-20 " />
 
       {/* Left side */}
-      <div className="absolute left-0 top-60 -z-10 h-204.5 max-w-168.75 pb-20 hidden lg:block select-none pointer-events-none origin-bottom-left">
+      <div className="absolute w-[30%] left-0 top-60 -z-10 h-204.5 max-w-168.75 pb-20 hidden lg:block select-none pointer-events-none origin-bottom-left">
         <Image
           src={heroLeftimg}
           alt="Medina Illustration"
@@ -25,7 +25,7 @@ const HeroSection = () => {
       </div>
 
       {/* Right side*/}
-      <div className="absolute right-0 top-12 -z-10 max-w-174 h-225.25 hidden lg:block select-none pointer-events-none origin-bottom-right">
+      <div className="absolute w-[30%] right-0 top-12 -z-10 max-w-174 h-225.25 hidden lg:block select-none pointer-events-none origin-bottom-right">
         <Image
           src={heroRightImg}
           alt="Makkah Illustration"
@@ -36,7 +36,7 @@ const HeroSection = () => {
       </div>
 
       {/*Hero main content*/}
-      <div className="max-w-7xl w-full mx-auto relative z-30 flex flex-col items-center grow justify-center pt-12 md:pt-20">
+      <div className="max-w-7xl w-full mx-auto relative z-30 flex flex-col items-center grow justify-center pt-12 md:pt-0 lg:pt-20">
         {/* Hero heading */}
         <div className="text-center max-w-3xl px-2 lg:w-193.25 lg:h-60.5">
           <h1 className="text-2xl  md:text-4xl lg:text-[56px] font-playfair font-bold text-secondary lg:leading-16 mb-4">
@@ -80,7 +80,7 @@ const HeroSection = () => {
         </div>
 
         {/*  Searchbar */}
-        <div className="w-full max-w-241.25 lg:h-55 mt-6 lg:mt-22 mb-16 bg-white/24 backdrop-blur border border-white/60 shadow-[0_20px_60px_rgba(15,41,66,0.06)] rounded-[56px] px-6 py-8 ">
+        <div className="w-full max-w-241.25 lg:h-55 mt-6 lg:mt-22  bg-white/24 backdrop-blur border border-white/60 shadow-[0_20px_60px_rgba(15,41,66,0.06)] rounded-[56px] px-6 py-8 ">
           {/* Small inner heading */}
           <div className="text-center mb-6">
             <h3 className="lg:text-2xl md:text-xl text-lg font-inter font-semibold text-secondary leading-8 inline-block relative pb-1.5">
