@@ -44,7 +44,7 @@ const HeroSection = () => {
             begins here!
           </h1>
 
-          <p className="text-xs sm:text-sm md:text-base text-[#546881] font-medium font-inter leading-7 mb-6">
+          <p className="text-sm md:text-base text-[#546881] font-medium font-inter leading-7 mb-6">
             Book your Tour, Hajj or Umrah pilgrimage with trusted services &
             package
           </p>
@@ -79,8 +79,8 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/*  Searbar card */}
-        <div className="w-full max-w-241.25 lg:h-55 mt-10 lg:mt-22 mb-16 bg-white/24 backdrop-blur border border-white/60 shadow-[0_20px_60px_rgba(15,41,66,0.06)] rounded-[56px] px-6 py-8 ">
+        {/*  Searchbar */}
+        <div className="w-full max-w-241.25 lg:h-55 mt-6 lg:mt-22 mb-16 bg-white/24 backdrop-blur border border-white/60 shadow-[0_20px_60px_rgba(15,41,66,0.06)] rounded-[56px] px-6 py-8 ">
           {/* Small inner heading */}
           <div className="text-center mb-6">
             <h3 className="lg:text-2xl md:text-xl text-lg font-inter font-semibold text-secondary leading-8 inline-block relative pb-1.5">

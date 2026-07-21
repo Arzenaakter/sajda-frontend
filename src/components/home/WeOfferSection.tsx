@@ -4,15 +4,13 @@ import { offers } from "@/data";
 
 const WeOfferSection = () => {
   return (
-    <section className=" z-30  ">
+    <section className="z-30">
       <Container>
         {/* Heading */}
 
-        <div className="text-center pt-10 md:pt-0">
-          <h2 className="font-playfair text-2xl  md:text-4xl  font-bold text-secondary">
-            We Offer Best Services
-          </h2>
-        </div>
+        <h2 className="font-playfair text-2xl text-center md:text-4xl  font-bold text-secondary">
+          We Offer Best Services
+        </h2>
 
         {/* Cards */}
 
@@ -21,10 +19,10 @@ const WeOfferSection = () => {
             <div className="relative" key={item.id}>
               {/* Blue Decoration */}
               {index === 1 && (
-                <div className="absolute  -bottom-8 -left-5 h-24 w-24 rounded-tl-[2.5rem] rounded-bl-none rounded-br-[2.5rem] rounded-tr-none bg-primary -z-10" />
+                <div className="absolute  -bottom-8 -left-5 h-24 w-24 rounded-tl-[2.5rem] rounded-bl-none rounded-br-[2.5rem] rounded-tr-none bg-primary -z-10 hidden md:block" />
               )}
 
-              <div className="relative h-75 w-71.25 rounded-[40px] bg-[#FCFDFD]/72 p-6  backdrop-blur-[2px] shadow-[0_26px_40px_rgba(0,0,0,0.08),inset_0_0_16px_rgba(255,255,255,1)] mx-auto">
+              <div className="relative w-full h-full lg:h-75 lg:w-71.25 rounded-[40px] bg-[#FCFDFD]/72 p-6  backdrop-blur-[2px] shadow-[0_26px_40px_rgba(0,0,0,0.08),inset_0_0_16px_rgba(255,255,255,1)] mx-auto">
                 <div className="flex h-full flex-col items-center text-center">
                   <Image
                     src={item.image}

@@ -4,7 +4,7 @@ import Container from "../common/Container";
 
 export default function JourneySection() {
   return (
-    <section className="py-28 bg-[#F9FAFB]">
+    <section className="lg:py-28 md:py-20 py-14 bg-[#F9FAFB]">
       <Container>
         <div className="text-center">
           <div className="flex items-center justify-center gap-3">

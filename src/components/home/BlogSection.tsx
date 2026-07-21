@@ -42,11 +42,11 @@ const BlogSection = () => {
 
             {/* Cards */}
 
-            <div className="relative mt-12 flex gap-5  pb-2  w-full lg:w-[895.03px] lg:h-60 z-10">
+            <div className="relative mt-12 flex md:flex-row flex-col gap-5  pb-2  w-full lg:w-[895.03px] lg:h-60 z-10">
               {blogs.map((blog) => (
                 <div
                   key={blog.title}
-                  className="group relative  h-56 md:h-60 flex-1 shadow-xl grow"
+                  className="group relative  md:h-60 flex-1 shadow-xl md:grow"
                 >
                   <Image
                     src={blog.image}
@@ -91,7 +91,7 @@ const BlogSection = () => {
 
                 {/* Image */}
                 <div className="relative pt-5 -ps-2 left-2">
-                  <div className="relative w-[477.49px] h-[690.57px] overflow-hidden rounded-t-[366px]">
+                  <div className="relative lg:w-[477.49px] lg:h-[690.57px] h-95 w-65 sm:h-120 sm:w-82.5 md:h-140 md:w-100 overflow-hidden rounded-t-[366px]">
                     <Image
                       src={tawar}
                       alt="Europe"

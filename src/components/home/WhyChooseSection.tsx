@@ -15,7 +15,7 @@ import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
 
 export default function WhyChooseSection() {
   return (
-    <section className="relative  py-20  overflow-hidden w-full  ">
+    <section className="relative md:py-16 py-10 lg:py-20  overflow-hidden w-full  ">
       <Container>
         <div className="grid items-center justify-center lg:justify-start gap-28 lg:gap-5 lg:grid-cols-2  ">
           {/* LEFT */}
@@ -64,7 +64,7 @@ export default function WhyChooseSection() {
             <Image
               src={plane}
               alt=""
-              className="absolute -right-38 -top-40 lg:w-auto -z-10  lg:pr-5"
+              className="absolute -right-38 -top-40 lg:w-auto -z-10  lg:pr-5 "
             />
 
             {/* Decoration */}
@@ -74,28 +74,27 @@ export default function WhyChooseSection() {
               className="absolute -bottom-10 left-0 w-32 lg:w-auto"
             />
             {/* Card */}
-            <div className="relative z-10 w-full max-w-92.5 lg:-left-10 lg:-top-5 h-100 rounded-[28px] bg-white p-5 shadow-[-10px_-10px_60px_rgba(89,177,230,0.4)]">
+            <div className="relative z-10 w-full lg:max-w-92.5 lg:-left-10 lg:-top-5 lg:h-100 rounded-[28px] bg-white lg:p-5 p-3 shadow-[-10px_-10px_60px_rgba(89,177,230,0.4)]">
               <div className="flex justify-center items-center">
                 {" "}
                 <Image
                   src={building}
                   alt=""
-                  className="w-full rounded-[26px] lg:w-80.25 h-40.25"
+                  className="w-full rounded-[26px] lg:w-80.25 lg:h-40.25"
                 />
               </div>
               <div>
-                {" "}
-                <h4 className="mt-5 font-playfair text-lg font-medium text-secondary">
+                <h4 className="mt-5 font-playfair text-lg font-medium text-secondary text-center md:text-start">
                   Trip to Makkah
                 </h4>
-                <p className="font-medium text-base text-[#84829A]">
+                <p className="font-medium text-base text-[#84829A] text-center md:text-start">
                   14–29 June | by JR Martir
                 </p>
               </div>
 
-              {/* ongoind card section */}
-              <div className="flex items-center justify-between lg:w-34.75 lg:h-9">
-                <div className="flex gap-3 text-[#84829A] mt-14">
+              {/* ongoing card section */}
+              <div className="flex items-center md:flex-row flex-col justify-center md:justify-between lg:w-34.75 lg:h-9 pb-8 lg:pb-0">
+                <div className="flex gap-3 text-[#84829A] lg:mt-10 ">
                   <button className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-100">
                     <ImLeaf />
                   </button>
@@ -109,7 +108,7 @@ export default function WhyChooseSection() {
                   </button>
                 </div>
                 {/* ongoing */}
-                <div className="ms-10 mt-6 flex p-2 gap-2 justify-between bg-white rounded-[18px] shadow lg:w-65.75 lg:h-32.25">
+                <div className="lg:ms-10 lg:mt-6 flex p-2 gap-2  justify-center lg:justify-between  bg-white rounded-[18px] shadow md:w-65.75 md:h-32.25 w-full">
                   <div className="h-12.5 w-12.5 ">
                     <Image
                       src={ongoingCardImg}
@@ -136,7 +135,7 @@ export default function WhyChooseSection() {
               </div>
 
               {/* card footer */}
-              <div className="absolute bottom-4 flex items-center  gap-10 lg:gap-20">
+              <div className="absolute bottom-4 flex items-center  gap-10 lg:gap-20 ">
                 <div className="flex items-center gap-2 text-[#84829A]">
                   <HiOutlineBuildingOffice2 className="w-4 h-4 " />
                   <p>60 people are interested</p>

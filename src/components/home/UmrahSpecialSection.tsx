@@ -9,7 +9,7 @@ import Container from "../common/Container";
 
 export default function UmrahSpecialSection() {
   return (
-    <section className="py-20  lg:py-28 overflow-hidden ">
+    <section className="py-12 md:py-20 lg:py-28 overflow-hidden ">
       <Container>
         <div className="grid items-center gap-12 md:gap-16 lg:gap-40 grid-cols-1 lg:grid-cols-12 ">
           {/* Left */}
@@ -26,7 +26,6 @@ export default function UmrahSpecialSection() {
             <div className="relative mx-auto lg:mx-0 lg:left-42">
               <div className="relative border-primary border-2 rounded-t-[180px] sm:rounded-t-[250px] lg:rounded-t-[376px] px-3 pt-3 border-b-0 border-l-0">
                 <div className="relative h-95 w-65 sm:h-120 sm:w-82.5 md:h-140 md:w-100 lg:h-172.5 lg:w-135 overflow-hidden ">
-                  {/* <div className="relative lg:h-172.5 lg:w-135 overflow-hidden  "> */}
                   <Image
                     src={mainImage}
                     alt="Umrah"
