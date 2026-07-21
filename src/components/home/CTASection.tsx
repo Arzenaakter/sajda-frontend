@@ -8,7 +8,7 @@ import Container from "../common/Container";
 
 export default function CTASection() {
   return (
-    <section className="relative h-112 overflow-hidden ">
+    <section className="relative h-112 overflow-hidden lg:mb-6">
       <Image
         src={heroBg}
         alt="Travel"
@@ -18,7 +18,7 @@ export default function CTASection() {
       />
 
       <Container>
-        <div className="relative z-10 flex  items-center justify-center mt-20">
+        <div className="relative z-10 flex  items-center justify-center mt-20 ">
           <div className="text-center">
             <h2 className="font-playfair text-xl md:text-3xl  lg:text-[50px] font-bold text-white leading-tight">
               Let's Make Your <br />

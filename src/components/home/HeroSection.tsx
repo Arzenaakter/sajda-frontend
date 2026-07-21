@@ -9,12 +9,12 @@ import client4 from "@/assets/hero/client4.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative  min-h-screen w-full px-4 md:px-8  flex flex-col items-center h-211.5 pt-20 md:pt-0 overflow-hidden lg:overflow-visible">
-      <div className="absolute -top-100 w-212.5 h-212.5 border-[1.5px] border-[#B2BBC6]/12 rounded-full z-20 " />
+    <section className="relative  pt-28 lg:pt-0 w-full px-4 md:px-8  flex flex-col items-center lg:h-211.5 overflow-hidden lg:overflow-visible">
+      <div className="absolute  -top-100 w-212.5 h-212.5 border-[1.5px] border-[#B2BBC6]/12 rounded-full z-20 " />
       <div className="absolute -top-127 w-266.5 h-266.5 border-[1.5px] border-[#B2BBC6]/12 rounded-full z-20 " />
 
       {/* Left side */}
-      <div className="absolute w-[30%] left-0 top-60 -z-10 h-204.5 max-w-168.75 pb-20 hidden lg:block select-none pointer-events-none origin-bottom-left">
+      <div className="absolute left-0 top-60 -z-10 h-204.5 max-w-168.75 pb-20 hidden lg:block select-none pointer-events-none origin-bottom-left">
         <Image
           src={heroLeftimg}
           alt="Medina Illustration"
@@ -25,7 +25,7 @@ const HeroSection = () => {
       </div>
 
       {/* Right side*/}
-      <div className="absolute w-[30%] right-0 top-12 -z-10 max-w-174 h-225.25 hidden lg:block select-none pointer-events-none origin-bottom-right">
+      <div className="absolute  right-0 top-12 -z-10 max-w-174 h-225.25 hidden lg:block select-none pointer-events-none origin-bottom-right">
         <Image
           src={heroRightImg}
           alt="Makkah Illustration"
@@ -36,10 +36,10 @@ const HeroSection = () => {
       </div>
 
       {/*Hero main content*/}
-      <div className="max-w-7xl w-full mx-auto relative z-30 flex flex-col items-center grow justify-center pt-12 md:pt-0 lg:pt-20">
+      <div className="max-w-7xl  w-full mx-auto relative z-30 flex flex-col items-center lg:grow justify-center  md:pt-0 lg:pt-10">
         {/* Hero heading */}
         <div className="text-center max-w-3xl px-2 lg:w-193.25 lg:h-60.5">
-          <h1 className="text-2xl  md:text-4xl lg:text-[56px] font-playfair font-bold text-secondary lg:leading-16 mb-4">
+          <h1 className="text-2xl  md:text-4xl lg:text-[56px] font-playfair font-bold text-secondary leading-16 mb-5">
             Your Tour, Hajj & Umrah <br className="hidden sm:inline" /> Journey
             begins here!
           </h1>
@@ -97,7 +97,7 @@ const HeroSection = () => {
                 Package
               </label>
               <div className="relative">
-                <select className="w-full bg-white border border-gray-200 text-xs font-semibold text-gray-500 rounded-full py-3 px-4 appearance-none outline-none transition-all cursor-pointer">
+                <select className="w-full bg-white border border-gray-200 text-xs font-semibold text-gray-500 rounded-full py-3 px-4 appearance-none outline-none transition-all cursor-pointer lg:w-43.75">
                   <option>Select package</option>
                   <option>Hajj Package</option>
                   <option>Umrah Package</option>
@@ -112,7 +112,7 @@ const HeroSection = () => {
                 Travel Month
               </label>
               <div className="relative">
-                <select className="w-full bg-white border border-gray-200 text-xs font-semibold text-gray-500 rounded-full py-3 px-4 appearance-none outline-none transition-all cursor-pointer">
+                <select className="w-full lg:w-43.75 bg-white border border-gray-200 text-xs font-semibold text-gray-500 rounded-full py-3 px-4 appearance-none outline-none transition-all cursor-pointer">
                   <option>January</option>
                   <option>February</option>
                   <option>March</option>
@@ -127,7 +127,7 @@ const HeroSection = () => {
                 Travelers
               </label>
               <div className="relative">
-                <select className="w-full bg-white border border-gray-200 text-xs font-semibold text-gray-500 rounded-full py-3 px-4 appearance-none outline-none transition-all cursor-pointer">
+                <select className="w-full lg:w-43.75 bg-white border border-gray-200 text-xs font-semibold text-gray-500 rounded-full py-3 px-4 appearance-none outline-none transition-all cursor-pointer">
                   <option>Select travelers</option>
                   <option>1 Adult</option>
                   <option>2 Adults</option>
@@ -144,7 +144,7 @@ const HeroSection = () => {
               <input
                 type="tel"
                 placeholder="Enter number"
-                className="w-full bg-white border border-gray-200 text-xs font-medium text-gray-700 placeholder-gray-400 rounded-full py-3 px-5 outline-none transition-all"
+                className="w-full lg:w-43.75 bg-white border border-gray-200 text-xs font-medium text-gray-700 placeholder-gray-400 rounded-full py-3 px-5 outline-none transition-all"
               />
             </div>
 

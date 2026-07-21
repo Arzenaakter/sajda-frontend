@@ -25,7 +25,7 @@ export default function TestimonialSection() {
   const current = testimonials[activeIndex];
 
   return (
-    <section className="relative overflow-hidden w-full py-20 md:py-24 lg:h-157.75 lg:py-0">
+    <section className="relative overflow-hidden w-full py-20 md:py-24 lg:h-157.75 lg:py-0 ">
       {/* Background */}
 
       <Image
@@ -44,7 +44,7 @@ export default function TestimonialSection() {
       />
 
       <Container>
-        <div className="flex flex-col items-center justify-center lg:mt-24 ">
+        <div className="flex flex-col items-center justify-center lg:mt-24  ">
           <div className="text-center ">
             <span className="text-primary font-normal font-inter text-base">
               Promotion

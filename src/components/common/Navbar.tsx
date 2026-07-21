@@ -16,7 +16,7 @@ const Navbar = () => {
       <nav className="hidden lg:flex w-283 h-20.75 bg-white/60 backdrop-blur-xl shadow-[0_4px_30px_rgba(15,41,66,0.08)] rounded-[56px] px-6 py-3 items-center justify-between z-40 transition-all fixed top-6 left-1/2 -translate-x-1/2">
         {/* Brand Logo Area */}
         <div className="pb-1.5">
-          <Image src={logo} alt="Logo" />
+          <Image src={logo} priority alt="Logo" />
         </div>
 
         {/* Navigation Links */}
